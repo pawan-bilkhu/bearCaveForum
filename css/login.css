@@ -1,0 +1,63 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+}
+.grid-entry{
+    padding-top: 1em;
+    text-align: center;
+    font-size: 15pt;
+    height: 100%;
+    width: auto;
+}
+.right{
+    background-color: #92EAA6;
+    color: white;
+}
+.inspire{
+    width: 700px;
+    height: 700px;
+    object-fit: contain;
+}
+input{
+    outline: none;
+    background-color: white;
+    border: solid 2px #92EAA6;
+    border-radius: 10px;
+    font-size: 15pt;
+    height: auto;
+    width: auto;
+}
+label{
+    font-family: Ranga;
+    font-style: normal;
+    font-weight: bold;
+    font-size: x-large;
+}
+.submitForm, #signup{
+    padding-top: 1em;
+}
+input[type=submit], #signup{
+    padding: 0.25em;
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: #92EAA6;
+    outline: none;
+    border-radius: 10px;
+}
+input[type=submit]:hover, #signup:hover{
+    outline: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.closeButton{
+    display: flex;
+    background-color: white;
+    border:none;
+}
+.closeButton:hover{
+    background-color: violet;
+}
+.logo{
+    height:300px;
+}
